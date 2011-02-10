@@ -56,12 +56,11 @@ $breadcrumbs = isset($breadcrumbs) ? $breadcrumbs : array('Home' => '');
   <div class="wrapper">
     <div id="header">
       <div class="wrapper">
-        <h1><a href="/"><span>Governing Michigan</span></a></h1> 
+        <h1><a href="/"><span>
+        	<img src="/images/" />Governing Michigan</span></a></h1> 
         <ul id="nav">
           <li id="nav-seek"><a href="seek_advanced.php"> Seek</a></li>
-          <!-- <li id="nav-discover"><a href="<?= SEEKING_MICHIGAN_HOST ?>/discover"> Discover</a></li>
-          <li id="nav-look"><a href="<?= SEEKING_MICHIGAN_HOST ?>/look"> Look</a></li>
-          <li id="nav-teach"><a href="<?= SEEKING_MICHIGAN_HOST ?>/teach"> Teach</a> --></li>
+          <li id="nav-discover"><a href="<?= SEEKING_MICHIGAN_HOST ?>/discover"> Discover</a></li>
         </ul>
       </div>
     </div>
