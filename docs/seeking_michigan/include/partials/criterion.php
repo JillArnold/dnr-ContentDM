@@ -26,14 +26,5 @@
     <option value="covera">Coverage</option>
     <option value="rights">Rights</option>
     <option value="audien">Audience</option>
-    <option id="death_1" value="descri">First Name (Death Records)</option>
-    <option id="death_2" value="creato">Last Name (Death Records)</option>
-    <option id="death_3" value="subjec">City/Village/Township (Death Records)</option>
-    <option id="death_4" value="title">County (Death Records)</option>
-    <option id="death_5" value="format">Death Year (Death Records)</option>
-    <option id="death_6" value="publis">Birth Year (Death Records)</option>
-    <option id="death_7" value="contri">Age (Death Records)</option>
-    <option id="death_8" value="source">Father's Last Name (Death Records)</option>
-    <option id="death_9" value="identi">Father's Given Name (Death Records)</option>
   </select>
 </fieldset>

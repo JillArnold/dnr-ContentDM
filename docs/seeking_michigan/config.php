@@ -1,5 +1,6 @@
 <?
 error_reporting(E_ALL);
+// display_errors("1");
 
 if(preg_match('/haldigitalcollections/',$_SERVER['HTTP_HOST'])) {
   $redirect_string = 'http://seekingmichigan.cdmhost.com'.$_SERVER['PHP_SELF'];
