@@ -55,7 +55,7 @@ $breadcrumbs = isset($breadcrumbs) ? $breadcrumbs : array('Home' => '');
   <div class="wrapper">
     <div id="header">
       <div class="wrapper">
-        <h1><a href="/"><span>
+        <h1><a href="<?= SEEKING_MICHIGAN_HOST ?>"><span>
         	<img src="/images/" />Governing Michigan</span></a></h1> 
         <ul id="nav">
           <li id="nav-seek"><a href="seek_advanced.php"> Seek</a></li>

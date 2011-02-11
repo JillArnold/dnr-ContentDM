@@ -2,11 +2,11 @@
     </div>
     <div id="footer">
       <div id="main-whitebox-bottom"></div>
-      <div class="michigan-circle">
+      <!-- <div class="michigan-circle">
         <a href="http://mi.gov">
           <img src="<?= SEEKING_MICHIGAN_HOST ?>/images/michigan-state-circle.png" alt="michigan seal" />
         </a>
-      </div>
+      </div> -->
       <div class="wrapper">
         <div class="links">
           <ul class="first">
