@@ -38,7 +38,7 @@ $breadcrumbs = isset($breadcrumbs) ? $breadcrumbs : array('Home' => '');
   <script type="text/javascript">
     try { _gat._getTracker("UA-7441223-3")._trackPageview(); } catch(err) {}
   </script>
-  <? // app()->partial('banner', array('scene' => app()->helper('header')->banner_scene())); ?>
+
   <? if(FACEBOX == 'display'): ?>
     <? app()->partial('facebox'); ?>
   <? endif; ?>
@@ -63,10 +63,10 @@ $breadcrumbs = isset($breadcrumbs) ? $breadcrumbs : array('Home' => '');
         </ul>
       </div>
     </div>
-    <div id="utility-bar">
+    <!-- <div id="utility-bar">
       <div class="wrapper">
         <?php app()->partial('breadcrumbs', array('breadcrumbs' => $breadcrumbs)); ?>
       </div>
-    </div>
+    </div> -->
     <div id="main">
       <div class="wrapper">
