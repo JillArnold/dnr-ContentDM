@@ -51,13 +51,14 @@ $breadcrumbs = isset($breadcrumbs) ? $breadcrumbs : array('Home' => '');
     </script>
   <? endif; ?>
 </head>
-<body id="www-governingmichigan-gov" class="<?= $body_class; ?>">
+<body id="dnr-seekingmichigan-org" class="<?= $body_class; ?>">
   <div class="wrapper">
     <div id="header">
       <div class="wrapper">
         <h1><a href="<?= SEEKING_MICHIGAN_HOST ?>"><span>
-        	<img src="/images/" />Governing Michigan</span></a></h1> 
+        	DNR Online Library</span></a></h1> 
         <ul id="nav">
+          <li id="nav-home"><a href="<?= SEEKING_MICHIGAN_HOST ?>">Home</a></li>        
           <li id="nav-seek"><a href="seek_advanced.php"> Seek</a></li>
           <li id="nav-discover"><a href="<?= SEEKING_MICHIGAN_HOST ?>/discover"> Discover</a></li>
         </ul>
